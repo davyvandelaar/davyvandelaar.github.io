@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy on My cool new Blog</title>
-    <link>https://blog.technokoning.nl/categories/privacy/</link>
+    <link>https://blogger.technokoning.nl/categories/privacy/</link>
     <description>Recent content in Privacy on My cool new Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Nov 2021 13:05:27 +0100</lastBuildDate><atom:link href="https://blog.technokoning.nl/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 13:05:27 +0100</lastBuildDate><atom:link href="https://blogger.technokoning.nl/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Duckduckgo.com</title>
-      <link>https://blog.technokoning.nl/link/duckduckgo/</link>
+      <link>https://blogger.technokoning.nl/link/duckduckgo/</link>
       <pubDate>Mon, 01 Nov 2021 13:05:27 +0100</pubDate>
       
-      <guid>https://blog.technokoning.nl/link/duckduckgo/</guid>
+      <guid>https://blogger.technokoning.nl/link/duckduckgo/</guid>
       <description>A search engine that respects your privacy.</description>
     </item>
     
     <item>
       <title>Edward Snowden About Privacy</title>
-      <link>https://blog.technokoning.nl/quote/edward-snowden-privacy/</link>
+      <link>https://blogger.technokoning.nl/quote/edward-snowden-privacy/</link>
       <pubDate>Mon, 01 Nov 2021 13:01:14 +0100</pubDate>
       
-      <guid>https://blog.technokoning.nl/quote/edward-snowden-privacy/</guid>
+      <guid>https://blogger.technokoning.nl/quote/edward-snowden-privacy/</guid>
       <description>Arguing that you don&amp;rsquo;t care about the right to privacy because you have nothing to hide is no different than saying you don&amp;rsquo;t care about free speech because you have nothing to say.</description>
     </item>
     
