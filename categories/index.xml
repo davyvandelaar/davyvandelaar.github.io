@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Deefs cool new Blog</title>
+    <title>Categories on CodeCrusaders</title>
     <link>https://blogger.technokoning.nl/categories/</link>
-    <description>Recent content in Categories on Deefs cool new Blog</description>
+    <description>Recent content in Categories on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 01 Nov 2021 18:01:26 +0100</lastBuildDate><atom:link href="https://blogger.technokoning.nl/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -84,6 +84,33 @@
       <pubDate>Mon, 01 Nov 2021 09:31:27 +0100</pubDate>
       
       <guid>https://blogger.technokoning.nl/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ansible</title>
+      <link>https://blogger.technokoning.nl/categories/ansible/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/categories/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://blogger.technokoning.nl/categories/devops/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vmware</title>
+      <link>https://blogger.technokoning.nl/categories/vmware/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/categories/vmware/</guid>
       <description></description>
     </item>
     

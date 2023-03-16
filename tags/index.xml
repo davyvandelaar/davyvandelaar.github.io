@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Deefs cool new Blog</title>
+    <title>Tags on CodeCrusaders</title>
     <link>https://blogger.technokoning.nl/tags/</link>
-    <description>Recent content in Tags on Deefs cool new Blog</description>
+    <description>Recent content in Tags on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 01 Nov 2021 18:10:14 +0100</lastBuildDate><atom:link href="https://blogger.technokoning.nl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -129,6 +129,51 @@
       <pubDate>Mon, 01 Nov 2021 09:31:27 +0100</pubDate>
       
       <guid>https://blogger.technokoning.nl/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ansible</title>
+      <link>https://blogger.technokoning.nl/tags/ansible/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://blogger.technokoning.nl/tags/devops/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dvs</title>
+      <link>https://blogger.technokoning.nl/tags/dvs/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/tags/dvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vds</title>
+      <link>https://blogger.technokoning.nl/tags/vds/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/tags/vds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vmware</title>
+      <link>https://blogger.technokoning.nl/tags/vmware/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/tags/vmware/</guid>
       <description></description>
     </item>
     

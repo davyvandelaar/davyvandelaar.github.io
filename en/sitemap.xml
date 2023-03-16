@@ -2,6 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blogger.technokoning.nl/article/</loc>
+    <lastmod>2023-03-15T15:57:45+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/article/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/</loc>
+    <lastmod>2023-03-15T15:57:45+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/article/testcode/</loc>
+    <lastmod>2023-03-15T15:57:45+01:00</lastmod>
+  </url><url>
     <loc>https://blogger.technokoning.nl/status/bilberry-theme-released/</loc>
     <lastmod>2021-12-15T10:45:44+02:00</lastmod>
     <xhtml:link
@@ -15,19 +44,6 @@
                 href="https://blogger.technokoning.nl/status/bilberry-theme-released/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/</loc>
-    <lastmod>2021-12-15T10:45:44+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/"
-                />
-  </url><url>
     <loc>https://blogger.technokoning.nl/status/</loc>
     <lastmod>2021-12-15T10:45:44+02:00</lastmod>
     <xhtml:link
@@ -39,19 +55,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blogger.technokoning.nl/status/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/article/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/article/"
                 />
   </url><url>
     <loc>https://blogger.technokoning.nl/author/</loc>
@@ -406,6 +409,36 @@
   </url><url>
     <loc>https://blogger.technokoning.nl/categories/tutorials/</loc>
     <lastmod>2021-11-01T09:31:27+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/ansible/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/ansible/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/article/creating-uniform-portgroups-on-vsphere-distributed-switch-with-ansible/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/author/davy/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/devops/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/devops/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/dvs/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/vds/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/vmware/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/vmware/</loc>
+    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/archive/</loc>
     <xhtml:link
