@@ -26,5 +26,41 @@ built-in integration for the wonderful algolia search built-in integration for t
       <description></description>
     </item>
     
+    <item>
+      <title>Archive</title>
+      <link>https://blogger.technokoning.nl/page/archive/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/page/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://blogger.technokoning.nl/page/code/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/page/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://blogger.technokoning.nl/page/tags/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/page/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://blogger.technokoning.nl/page/gallery/</link>
+      <pubDate>Mon, 16 Mar 2020 17:23:01 +0100</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/page/gallery/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
