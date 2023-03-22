@@ -2,8 +2,96 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blogger.technokoning.nl/author/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/author/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/categories/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/code/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/author/davy/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/devops/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/nsx/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/nsx/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/nsxt/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/code/nsxt-powercli-export-loadbalancer/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/powercli/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/powershell/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/powershell/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/tags/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/vmware/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/vmware/</loc>
+    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+  </url><url>
     <loc>https://blogger.technokoning.nl/article/</loc>
-    <lastmod>2023-03-21T11:44:20+01:00</lastmod>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -15,18 +103,29 @@
                 href="https://blogger.technokoning.nl/article/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/</loc>
-    <lastmod>2023-03-21T11:44:20+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/"
-                />
+    <loc>https://blogger.technokoning.nl/categories/certification/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/cka/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/cloud-native/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/cloudnative/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/kubernetes/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/categories/kubernetes/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/tags/linuxfoundation/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/article/online-lab-for-kubernetes/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/article/some-demo/</loc>
     <lastmod>2023-03-21T11:44:20+01:00</lastmod>
@@ -58,19 +157,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blogger.technokoning.nl/status/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/author/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/author/"
                 />
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/discussions/</loc>
@@ -144,19 +230,6 @@
                 href="https://blogger.technokoning.nl/article/support-and-discussions/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/"
-                />
-  </url><url>
     <loc>https://blogger.technokoning.nl/gallery/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
     <priority>0</priority>
@@ -169,19 +242,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blogger.technokoning.nl/gallery/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/</loc>
-    <lastmod>2021-11-01T18:01:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/categories/"
                 />
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/eilean-donan-castle/</loc>
@@ -401,9 +461,6 @@
     <loc>https://blogger.technokoning.nl/categories/code/</loc>
     <lastmod>2021-11-01T09:31:27+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/code/</loc>
-    <lastmod>2021-11-01T09:31:27+01:00</lastmod>
-  </url><url>
     <loc>https://blogger.technokoning.nl/tags/hugo/</loc>
     <lastmod>2021-11-01T09:31:27+01:00</lastmod>
   </url><url>
@@ -422,25 +479,13 @@
     <loc>https://blogger.technokoning.nl/article/creating-uniform-portgroups-on-vsphere-distributed-switch-with-ansible/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/author/davy/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
     <loc>https://blogger.technokoning.nl/tags/devops/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/devops/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/dvs/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/vds/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/vmware/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/vmware/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/page/archive/</loc>
