@@ -8185,7 +8185,7 @@ based on dark.css by Ivan Sagalaev
   font-size: 15pt;
 }
 .bilberry-hugo-theme .container {
-  width: 800px;
+  width: 900px;
   max-width: 100%;
 }
 .bilberry-hugo-theme .ulist {
@@ -8554,7 +8554,7 @@ based on dark.css by Ivan Sagalaev
   overflow: hidden;
   background-color: #D9D9D9;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  width: 700px;
+  width: 800px;
   position: relative;
 }
 .bilberry-hugo-theme article:before {
@@ -9079,7 +9079,7 @@ based on dark.css by Ivan Sagalaev
 .bilberry-hugo-theme .credits .container:after {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .bilberry-hugo-theme nav.permanentTopNav {
     display: none;
   }
