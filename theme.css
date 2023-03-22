@@ -8119,11 +8119,7 @@ based on dark.css by Ivan Sagalaev
 .bilberry-hugo-theme {
   background-color: #D4D5C9;
   font-family: "Open Sans", sans-serif;
-<<<<<<< HEAD
   color: #6C6E68;
-=======
-  color: #5730a0;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   font-size: 1.6em;
   /* do not group these rules */
 }
@@ -8143,11 +8139,7 @@ based on dark.css by Ivan Sagalaev
   transition: all 0.2s ease-in-out;
 }
 .bilberry-hugo-theme a:hover {
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme a:focus {
   outline: none;
@@ -8420,11 +8412,7 @@ based on dark.css by Ivan Sagalaev
   border-radius: 50%;
   width: 90px;
   height: 90px;
-<<<<<<< HEAD
   border: 5px #6C6E68 solid;
-=======
-  border: 5px #9cca1c solid;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   position: relative;
   color: #0a325e;
   z-index: 4;
@@ -8541,13 +8529,8 @@ based on dark.css by Ivan Sagalaev
   position: absolute;
   left: 25px;
   top: 70px;
-<<<<<<< HEAD
   background-color: #D9D9D9;
   border: 3px solid #6C6E68;
-=======
-  background-color: #0A3463;
-  border: 3px solid #fff;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   width: 45px;
   height: 45px;
   display: flex;
@@ -8556,23 +8539,15 @@ based on dark.css by Ivan Sagalaev
   border-radius: 50%;
   z-index: 10;
   text-decoration: none;
-<<<<<<< HEAD
   color: #6C6E68;
-=======
-  color: #fff;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   transition: all 0.3s ease-in-out;
 }
 .bilberry-hugo-theme .main .article-wrapper .bubble .fa {
   font-size: 15pt;
 }
 .bilberry-hugo-theme .main .article-wrapper .bubble:hover {
-<<<<<<< HEAD
   color: #008F9B;
   border: 3px solid #008F9B;
-=======
-  background-color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme article {
   border-radius: 4px;
@@ -8618,11 +8593,7 @@ based on dark.css by Ivan Sagalaev
   color: inherit;
 }
 .bilberry-hugo-theme article .content h1 a:hover {
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   text-decoration: none;
 }
 .bilberry-hugo-theme article .content h2 {
@@ -8647,15 +8618,9 @@ based on dark.css by Ivan Sagalaev
   letter-spacing: 1px;
   margin-bottom: 2rem;
   font-size: 0.825em;
-<<<<<<< HEAD
   color: #A0A5A9;
   padding-bottom: 2.5%;
   border-bottom: 3px double #720E0F;
-=======
-  color: #999;
-  padding-bottom: 2.5%;
-  border-bottom: 3px double #eee;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   margin-bottom: 4.5%;
 }
 .bilberry-hugo-theme article .content .meta a {
@@ -8663,11 +8628,7 @@ based on dark.css by Ivan Sagalaev
   font-style: normal;
 }
 .bilberry-hugo-theme article .content .meta a:hover {
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   text-decoration: underline;
 }
 .bilberry-hugo-theme article .content .meta span:before {
@@ -8683,11 +8644,7 @@ based on dark.css by Ivan Sagalaev
 }
 .bilberry-hugo-theme article .content a {
   font-style: normal;
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme article .content a:hover {
   text-decoration: underline;
@@ -8695,11 +8652,7 @@ based on dark.css by Ivan Sagalaev
 .bilberry-hugo-theme article .content a.more {
   display: block;
   margin: 2.5rem 0 1rem;
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   font-size: 1.125em;
   text-decoration: none;
   font-style: normal;
@@ -8729,20 +8682,12 @@ based on dark.css by Ivan Sagalaev
   left: 0;
   display: inline-block;
   transition: left 0.3s ease-in-out;
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   font-family: "Open Sans", sans-serif;
   font-style: normal;
 }
 .bilberry-hugo-theme article .content .archive-list ul a span {
-<<<<<<< HEAD
   color: #A0A5A9;
-=======
-  color: #999;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme article .content .archive-list ul a:hover {
   left: 10px;
@@ -8791,11 +8736,7 @@ based on dark.css by Ivan Sagalaev
 }
 .bilberry-hugo-theme article .content #TableOfContents li {
   display: inherit;
-<<<<<<< HEAD
   color: #6C6E68;
-=======
-  color: #5730a0;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme article .content #TableOfContents li a {
   color: inherit;
@@ -8803,11 +8744,7 @@ based on dark.css by Ivan Sagalaev
   padding: 0;
 }
 .bilberry-hugo-theme article .content #TableOfContents li a:hover {
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   background-color: transparent;
 }
 .bilberry-hugo-theme article .highlight {
@@ -8835,11 +8772,7 @@ based on dark.css by Ivan Sagalaev
 }
 .bilberry-hugo-theme article .footer .tags .links a:not(:last-child):after {
   content: " / ";
-<<<<<<< HEAD
   color: #6C6E68 !important;
-=======
-  color: #5730a0 !important;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme article .footer .languages {
   display: flex;
@@ -8858,11 +8791,7 @@ based on dark.css by Ivan Sagalaev
 }
 .bilberry-hugo-theme article .footer .languages .links a:not(:last-child):after {
   content: " | ";
-<<<<<<< HEAD
   color: #6C6E68 !important;
-=======
-  color: #5730a0 !important;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme article .footnotes {
   font-size: 0.9em;
@@ -8973,19 +8902,11 @@ based on dark.css by Ivan Sagalaev
   border-right-color: #0A3463;
 }
 .bilberry-hugo-theme article.link:hover {
-<<<<<<< HEAD
   background-color: #008F9B;
   transition: all 0.3s ease-in-out;
 }
 .bilberry-hugo-theme article.link:hover:after {
   border-right-color: #008F9B;
-=======
-  background-color: #9cca1c;
-  transition: all 0.3s ease-in-out;
-}
-.bilberry-hugo-theme article.link:hover:after {
-  border-right-color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   transition: all 0.3s ease-in-out;
 }
 .bilberry-hugo-theme article.link .featured-image {
@@ -9045,11 +8966,7 @@ based on dark.css by Ivan Sagalaev
   color: #fff;
 }
 .bilberry-hugo-theme .paginator a:hover {
-<<<<<<< HEAD
   background-color: #008F9B;
-=======
-  background-color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   transition: all 0.3s ease-in-out;
 }
 .bilberry-hugo-theme .paginator a.older {
@@ -9059,15 +8976,9 @@ based on dark.css by Ivan Sagalaev
   margin-left: auto;
 }
 .bilberry-hugo-theme footer {
-<<<<<<< HEAD
   border-top: 3px solid #720E0F;
   border-bottom: 3px solid #720E0F;
   background-color: #d09168;
-=======
-  border-top: 3px solid #eee;
-  border-bottom: 3px solid #eee;
-  background-color: white;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme footer .container {
   padding: 4rem 0;
@@ -9084,11 +8995,7 @@ based on dark.css by Ivan Sagalaev
 }
 .bilberry-hugo-theme footer .container strong {
   text-transform: uppercase;
-<<<<<<< HEAD
   color: #6C6E68;
-=======
-  color: #444;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   padding-bottom: 0.75em;
 }
 .bilberry-hugo-theme footer .container ul {
@@ -9096,11 +9003,7 @@ based on dark.css by Ivan Sagalaev
   margin-top: 1.25em;
 }
 .bilberry-hugo-theme footer .container ul li {
-<<<<<<< HEAD
   border-bottom: 1px solid #6C6E68;
-=======
-  border-bottom: 1px solid #eee;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   padding-right: 10px;
 }
 .bilberry-hugo-theme footer .container ul a {
@@ -9108,20 +9011,12 @@ based on dark.css by Ivan Sagalaev
   left: 0;
   display: inline-block;
   transition: left 0.3s ease-in-out;
-<<<<<<< HEAD
   color: #19325A;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   font-family: "Open Sans", sans-serif;
 }
 .bilberry-hugo-theme footer .container ul a:hover {
   left: 10px;
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #19325A;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme footer .container .right .external-profiles {
   width: 100%;
@@ -9130,17 +9025,10 @@ based on dark.css by Ivan Sagalaev
 .bilberry-hugo-theme footer .container .right .external-profiles a {
   font-size: 2em;
   margin: 0 0.5rem;
-<<<<<<< HEAD
   color: #6C6E68;
 }
 .bilberry-hugo-theme footer .container .right .external-profiles a:hover {
   color: #008F9B;
-=======
-  color: #444;
-}
-.bilberry-hugo-theme footer .container .right .external-profiles a:hover {
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme footer .container .right .external-profiles .fa-facebook-adblock-proof:before {
   content: "";
@@ -9161,30 +9049,18 @@ based on dark.css by Ivan Sagalaev
 }
 .bilberry-hugo-theme footer .container .right .languages a {
   text-transform: uppercase;
-<<<<<<< HEAD
   color: #008F9B;
-=======
-  color: #9cca1c;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
   letter-spacing: 0.1em;
 }
 .bilberry-hugo-theme footer .container .right .languages a.active {
   font-weight: bold;
 }
 .bilberry-hugo-theme footer .container .right .languages a:hover {
-<<<<<<< HEAD
   color: #6C6E68;
 }
 .bilberry-hugo-theme footer .container .right .languages a:not(:last-child):after {
   content: " | ";
   color: #6C6E68 !important;
-=======
-  color: #5730a0;
-}
-.bilberry-hugo-theme footer .container .right .languages a:not(:last-child):after {
-  content: " | ";
-  color: #5730a0 !important;
->>>>>>> bd8e52c63090dbf9ef7e6f015306a54dad539cdc
 }
 .bilberry-hugo-theme footer .container .right .archive {
   width: 100%;
