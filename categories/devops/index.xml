@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on CodeCrusaders</title>
+    <link>https://blogger.technokoning.nl/categories/devops/</link>
+    <description>Recent content in devops on CodeCrusaders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Jun 2020 15:36:17 +0000</lastBuildDate><atom:link href="https://blogger.technokoning.nl/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating Uniform Portgroups on VSphere Distributed Switch With Ansible</title>
+      <link>https://blogger.technokoning.nl/article/creating-uniform-portgroups-on-vsphere-distributed-switch-with-ansible/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/article/creating-uniform-portgroups-on-vsphere-distributed-switch-with-ansible/</guid>
+      <description>If you are a vSphere administrator managing environments with multiple clusters and vSphere Distributed Switches, then you are probably aware that naming portgroups can sometimes be quite a challenge.
+Especially when similar portgroups have to exist on more than one vSphere Distributed Switch (VDS), because you can’t have duplicate portgroup names within one vCenter. To avoid clutter you want to create those portgroups in an uniform and automated way. Well, at least i do.</description>
+    </item>
+    
+  </channel>
+</rss>
