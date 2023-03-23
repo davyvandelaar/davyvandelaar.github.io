@@ -5,7 +5,20 @@
     <link>https://blogger.technokoning.nl/author/davy/</link>
     <description>Recent content in Davy on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Mar 2023 17:28:44 +0100</lastBuildDate><atom:link href="https://blogger.technokoning.nl/author/davy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 16:54:51 +0000</lastBuildDate><atom:link href="https://blogger.technokoning.nl/author/davy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://blogger.technokoning.nl/page/about-me/</link>
+      <pubDate>Thu, 23 Mar 2023 16:54:51 +0000</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/page/about-me/</guid>
+      <description>Thit is meDavy van de Laar
+Consultant
+strong focus on cloudnative and SDDC
+www.itq.eu
+My Story I have been working in IT as long as I can remember and I can truly say that I have always loved it! The world around us is always moving, always changing and I do embrace that. It is one of those things that makes the IT world so attractive and so much fun.</description>
+    </item>
+    
     <item>
       <title>Nsxt Powercli Export Loadbalancer</title>
       <link>https://blogger.technokoning.nl/code/nsxt-powercli-export-loadbalancer/</link>

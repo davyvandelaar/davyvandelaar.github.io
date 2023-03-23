@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blogger.technokoning.nl/page/about-me/</loc>
+    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/author/</loc>
+    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/author/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/</loc>
+    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/"
+                />
+  </url><url>
+    <loc>https://blogger.technokoning.nl/author/davy/</loc>
+    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/page/</loc>
+    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blogger.technokoning.nl/de/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blogger.technokoning.nl/page/"
+                />
+  </url><url>
     <loc>https://blogger.technokoning.nl/article/2020/</loc>
     <lastmod>2023-03-23T16:22:09+01:00</lastmod>
   </url><url>
@@ -18,19 +63,6 @@
                 href="https://blogger.technokoning.nl/article/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/</loc>
-    <lastmod>2023-03-23T16:22:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/"
-                />
-  </url><url>
     <loc>https://blogger.technokoning.nl/article/2021/</loc>
     <lastmod>2023-03-23T16:20:11+01:00</lastmod>
   </url><url>
@@ -39,19 +71,6 @@
   </url><url>
     <loc>https://blogger.technokoning.nl/article/2023/</loc>
     <lastmod>2023-03-23T16:19:48+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/author/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/author/"
-                />
   </url><url>
     <loc>https://blogger.technokoning.nl/categories/</loc>
     <lastmod>2023-03-22T17:28:44+01:00</lastmod>
@@ -67,9 +86,6 @@
                 />
   </url><url>
     <loc>https://blogger.technokoning.nl/code/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/author/davy/</loc>
     <lastmod>2023-03-22T17:28:44+01:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/categories/devops/</loc>
@@ -386,22 +402,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blogger.technokoning.nl/tags/truth-rap/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/page/about-me/</loc>
-    <lastmod>2021-11-01T13:18:45+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/page/</loc>
-    <lastmod>2021-11-01T13:18:45+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/page/"
                 />
   </url><url>
     <loc>https://blogger.technokoning.nl/link/duckduckgo/</loc>
