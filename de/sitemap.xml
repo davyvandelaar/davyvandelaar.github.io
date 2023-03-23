@@ -334,8 +334,11 @@
     <loc>https://blogger.technokoning.nl/de/categories/zitate/</loc>
     <lastmod>2021-11-01T14:40:32+01:00</lastmod>
   </url><url>
+    <loc>https://blogger.technokoning.nl/de/page/github/</loc>
+    <lastmod>2021-11-01T13:17:56+01:00</lastmod>
+  </url><url>
     <loc>https://blogger.technokoning.nl/de/page/</loc>
-    <lastmod>2021-11-01T13:18:45+01:00</lastmod>
+    <lastmod>2021-11-01T13:17:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -345,32 +348,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://blogger.technokoning.nl/de/page/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/de/page/about-bilberry/</loc>
-    <lastmod>2021-11-01T13:18:45+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/page/about-bilberry/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/page/about-bilberry/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/de/page/github/</loc>
-    <lastmod>2021-11-01T13:17:56+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/page/github/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/page/github/"
                 />
   </url><url>
     <loc>https://blogger.technokoning.nl/de/archive/</loc>

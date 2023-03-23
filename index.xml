@@ -4,7 +4,7 @@
     <link>https://blogger.technokoning.nl/</link>
     <description>Recent content on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Mar 2023 17:28:44 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2023 16:22:09 +0100</lastBuildDate>
     
         <atom:link href="https://blogger.technokoning.nl/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,10 +20,10 @@
     
     <item>
       <title>Online Lab for Kubernetes</title>
-      <link>https://blogger.technokoning.nl/article/online-lab-for-kubernetes/</link>
+      <link>https://blogger.technokoning.nl/article/2023/online-lab-for-kubernetes/</link>
       <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/article/online-lab-for-kubernetes/</guid>
+      <guid>https://blogger.technokoning.nl/article/2023/online-lab-for-kubernetes/</guid>
       <description>Good news everyone! I passed my CKA Exam and I got a pass on the first try. To practice I used an online lab and I have to say, I am a fan. This is why I am going to share how I set up an online lab for Kubernetes. How it was set up, how I used it and why it is so great. Little disclaimer, it is not a free solution.</description>
     </item>
     
@@ -42,7 +42,7 @@
       <pubDate>Wed, 15 Mar 2023 15:57:45 +0100</pubDate>
       
       <guid>https://blogger.technokoning.nl/article/testcode/</guid>
-      <description>CLICK ME We can hide anything, even code! puts &amp;#34;Hello World&amp;#34; </description>
+      <description>CLICK ME We can hide anything, even code! puts &amp;#34;Hello World 1&amp;#34; </description>
     </item>
     
     <item>
@@ -114,21 +114,11 @@ If you don&amp;rsquo;t want to embed sound but use a header image you can set it
     </item>
     
     <item>
-      <title>Installing Bilberry Theme</title>
-      <link>https://blogger.technokoning.nl/code/installing-bilberry-theme/</link>
-      <pubDate>Mon, 01 Nov 2021 09:31:27 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/code/installing-bilberry-theme/</guid>
-      <description>&lt;p&gt;You will find all information to setup this theme with your hugo site
-on the official &lt;br&gt; &lt;a href=&#34;https://github.com/Lednerb/bilberry-hugo-theme&#34;&gt;Github Repository&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Creating Uniform Portgroups on VSphere Distributed Switch With Ansible</title>
-      <link>https://blogger.technokoning.nl/article/creating-uniform-portgroups-on-vsphere-distributed-switch-with-ansible/</link>
+      <link>https://blogger.technokoning.nl/article/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</link>
       <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
       
-      <guid>https://blogger.technokoning.nl/article/creating-uniform-portgroups-on-vsphere-distributed-switch-with-ansible/</guid>
+      <guid>https://blogger.technokoning.nl/article/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</guid>
       <description>If you are a vSphere administrator managing environments with multiple clusters and vSphere Distributed Switches, then you are probably aware that naming portgroups can sometimes be quite a challenge.
 Especially when similar portgroups have to exist on more than one vSphere Distributed Switch (VDS), because you can’t have duplicate portgroup names within one vCenter. To avoid clutter you want to create those portgroups in an uniform and automated way. Well, at least i do.</description>
     </item>

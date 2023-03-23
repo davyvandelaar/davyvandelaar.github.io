@@ -15,15 +15,5 @@
       <description>ow to export NSX-T loadbalancer information with PowerCLI? This question popped in my mind after a customer request to generate a list with their loadbalancers and associated virtual servers. This was not as easy as I thought! First of all, the NSX-T userinterface is not very export-friendly and i could not find a way to export data. That doesn’t matter though, because I am an automation kinda guy anyways. So I thought let’s take a look at PowerCLI for NSX-T.</description>
     </item>
     
-    <item>
-      <title>Installing Bilberry Theme</title>
-      <link>https://blogger.technokoning.nl/code/installing-bilberry-theme/</link>
-      <pubDate>Mon, 01 Nov 2021 09:31:27 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/code/installing-bilberry-theme/</guid>
-      <description>&lt;p&gt;You will find all information to setup this theme with your hugo site
-on the official &lt;br&gt; &lt;a href=&#34;https://github.com/Lednerb/bilberry-hugo-theme&#34;&gt;Github Repository&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>
