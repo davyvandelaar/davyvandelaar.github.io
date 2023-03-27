@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blogger.technokoning.nl/page/home/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/page/code/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/page/tags/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/page/categories/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/page/archive/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blogger.technokoning.nl/page/certifications/</loc>
+    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+  </url><url>
     <loc>https://blogger.technokoning.nl/page/about-me/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
@@ -36,16 +54,6 @@
   </url><url>
     <loc>https://blogger.technokoning.nl/page/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/page/"
-                />
   </url><url>
     <loc>https://blogger.technokoning.nl/article/2020/</loc>
     <lastmod>2023-03-23T16:22:09+01:00</lastmod>
@@ -158,32 +166,6 @@
     <loc>https://blogger.technokoning.nl/article/testcode/</loc>
     <lastmod>2023-03-15T15:57:45+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/status/bilberry-theme-released/</loc>
-    <lastmod>2021-12-15T10:45:44+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/status/bilberry-theme-released/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/status/bilberry-theme-released/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/status/</loc>
-    <lastmod>2021-12-15T10:45:44+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/status/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/status/"
-                />
-  </url><url>
     <loc>https://blogger.technokoning.nl/tags/discussions/</loc>
     <lastmod>2021-11-01T18:10:14+01:00</lastmod>
   </url><url>
@@ -258,29 +240,9 @@
     <loc>https://blogger.technokoning.nl/gallery/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/gallery/"
-                />
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/eilean-donan-castle/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/eilean-donan-castle/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/eilean-donan-castle/"
-                />
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/glennfinnan-viaduct/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
@@ -290,156 +252,12 @@
   </url><url>
     <loc>https://blogger.technokoning.nl/gallery/my-trip-to-scotland/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/gallery/my-trip-to-scotland/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/gallery/my-trip-to-scotland/"
-                />
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/scotland/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/categories/travelling/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/kilez-more/</loc>
-    <lastmod>2021-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/kilez-more/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/kilez-more/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/video/kilez-more-leben-und-tod-des-imperialismus/</loc>
-    <lastmod>2021-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/video/kilez-more-leben-und-tod-des-imperialismus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/video/kilez-more-leben-und-tod-des-imperialismus/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/music/</loc>
-    <lastmod>2021-11-01T16:23:40+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/politics/</loc>
-    <lastmod>2021-11-01T16:23:40+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/video/</loc>
-    <lastmod>2021-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/categories/video/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/categories/video/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/video/</loc>
-    <lastmod>2021-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/video/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/video/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/audio/</loc>
-    <lastmod>2021-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/audio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/audio/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/audio/kilez-more-new-world-order/</loc>
-    <lastmod>2021-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/audio/kilez-more-new-world-order/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/audio/kilez-more-new-world-order/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/truth-rap/</loc>
-    <lastmod>2021-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/truth-rap/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/truth-rap/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/link/duckduckgo/</loc>
-    <lastmod>2021-11-01T13:05:27+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/link/</loc>
-    <lastmod>2021-11-01T13:05:27+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/privacy/</loc>
-    <lastmod>2021-11-01T13:05:27+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/search-engine/</loc>
-    <lastmod>2021-11-01T13:05:27+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/author/edward-snowden/</loc>
-    <lastmod>2021-11-01T13:01:14+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/quote/edward-snowden-privacy/</loc>
-    <lastmod>2021-11-01T13:01:14+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/free-speech/</loc>
-    <lastmod>2021-11-01T13:01:14+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/quote/</loc>
-    <lastmod>2021-11-01T13:01:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/quote/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/quote/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/society/</loc>
-    <lastmod>2021-11-01T13:01:14+01:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/ansible/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
@@ -458,15 +276,6 @@
   </url><url>
     <loc>https://blogger.technokoning.nl/tags/vds/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/page/archive/</loc>
-    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/page/code/</loc>
-    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/page/tags/</loc>
-    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
   </url><url>
     <loc>https://blogger.technokoning.nl/page/gallery/</loc>
     <lastmod>2020-03-16T17:23:01+01:00</lastmod>
