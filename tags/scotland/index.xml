@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scotland on CodeCrusaders</title>
+    <link>https://blogger.technokoning.nl/tags/scotland/</link>
+    <description>Recent content in Scotland on CodeCrusaders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Nov 2021 18:01:26 +0100</lastBuildDate><atom:link href="https://blogger.technokoning.nl/tags/scotland/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Trip to Scotland</title>
+      <link>https://blogger.technokoning.nl/gallery/my-trip-to-scotland/</link>
+      <pubDate>Mon, 01 Nov 2021 18:01:26 +0100</pubDate>
+      
+      <guid>https://blogger.technokoning.nl/gallery/my-trip-to-scotland/</guid>
+      <description>Some test with pictures</description>
+    </item>
+    
+  </channel>
+</rss>
