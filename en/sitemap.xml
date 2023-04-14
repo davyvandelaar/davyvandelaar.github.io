@@ -2,306 +2,216 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blogger.technokoning.nl/page/home/</loc>
+    <loc>https://blog.codecrusaders.nl/page/home/</loc>
     <lastmod>2020-03-16T18:00:17+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/code/</loc>
+    <loc>https://blog.codecrusaders.nl/page/code/</loc>
     <lastmod>2020-03-16T18:00:17+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/tags/</loc>
+    <loc>https://blog.codecrusaders.nl/page/tags/</loc>
     <lastmod>2020-03-16T18:00:17+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/categories/</loc>
+    <loc>https://blog.codecrusaders.nl/page/categories/</loc>
     <lastmod>2020-03-16T18:00:17+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/archive/</loc>
+    <loc>https://blog.codecrusaders.nl/page/archive/</loc>
     <lastmod>2020-03-16T18:00:17+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/certifications/</loc>
+    <loc>https://blog.codecrusaders.nl/page/certifications/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/about-me/</loc>
+    <loc>https://blog.codecrusaders.nl/page/about-me/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/author/</loc>
-    <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/code/2023/</loc>
+    <lastmod>2023-03-28T15:37:28+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/</loc>
+    <lastmod>2023-03-28T15:37:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://blogger.technokoning.nl/de/author/"
+                href="https://blog.codecrusaders.nl/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blogger.technokoning.nl/author/"
+                href="https://blog.codecrusaders.nl/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/</loc>
+    <loc>https://blog.codecrusaders.nl/code/</loc>
+    <lastmod>2023-03-28T15:37:28+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/code/2022/</loc>
+    <lastmod>2023-03-28T15:37:24+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/code/2021/</loc>
+    <lastmod>2023-03-28T15:37:20+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/code/2020/</loc>
+    <lastmod>2023-03-28T15:36:42+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/author/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://blogger.technokoning.nl/de/"
+                href="https://blog.codecrusaders.nl/de/author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blogger.technokoning.nl/"
+                href="https://blog.codecrusaders.nl/author/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/author/davy/</loc>
+    <loc>https://blog.codecrusaders.nl/author/davy/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/page/</loc>
+    <loc>https://blog.codecrusaders.nl/page/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/article/2020/</loc>
+    <loc>https://blog.codecrusaders.nl/article/2020/</loc>
     <lastmod>2023-03-23T16:22:09+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/article/</loc>
+    <loc>https://blog.codecrusaders.nl/article/</loc>
     <lastmod>2023-03-23T16:22:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/article/"
-                />
   </url><url>
-    <loc>https://blogger.technokoning.nl/article/2021/</loc>
+    <loc>https://blog.codecrusaders.nl/article/2021/</loc>
     <lastmod>2023-03-23T16:20:11+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/article/2022/</loc>
+    <loc>https://blog.codecrusaders.nl/article/2022/</loc>
     <lastmod>2023-03-23T16:19:57+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/article/2023/</loc>
+    <loc>https://blog.codecrusaders.nl/article/2023/</loc>
     <lastmod>2023-03-23T16:19:48+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/categories/article/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/categories/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://blogger.technokoning.nl/de/categories/"
+                href="https://blog.codecrusaders.nl/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blogger.technokoning.nl/categories/"
+                href="https://blog.codecrusaders.nl/categories/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/code/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/tags/certification/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/devops/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/tags/cka/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/nsx/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/tags/cloudnative/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/nsxt/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/categories/devops/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/code/nsxt-powercli-export-loadbalancer/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/tags/kubernetes/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/powercli/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/tags/linuxfoundation/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/powershell/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/article/2023/online-lab-for-kubernetes/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/powershell/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
+    <loc>https://blog.codecrusaders.nl/tags/</loc>
+    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/"
+                href="https://blog.codecrusaders.nl/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blogger.technokoning.nl/tags/"
+                href="https://blog.codecrusaders.nl/tags/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/vmware/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/vmware/</loc>
-    <lastmod>2023-03-22T17:28:44+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/certification/</loc>
+    <loc>https://blog.codecrusaders.nl/tags/vmware/</loc>
     <lastmod>2023-03-22T17:22:23+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/cka/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/cloud-native/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/cloudnative/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/kubernetes/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/categories/kubernetes/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/linuxfoundation/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/article/2023/online-lab-for-kubernetes/</loc>
-    <lastmod>2023-03-22T17:22:23+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/article/some-demo/</loc>
-    <lastmod>2023-03-21T11:44:20+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/article/testcode/</loc>
-    <lastmod>2023-03-15T15:57:45+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/discussions/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/ideas/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/ideas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/ideas/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/author/lednerb/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/author/lednerb/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/author/lednerb/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/qa/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/qa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/qa/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/show-and-tell/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/support/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/tags/support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/tags/support/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/article/support-and-discussions/</loc>
-    <lastmod>2021-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blogger.technokoning.nl/de/article/support-and-discussions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blogger.technokoning.nl/article/support-and-discussions/"
-                />
-  </url><url>
-    <loc>https://blogger.technokoning.nl/gallery/</loc>
+    <loc>https://blog.codecrusaders.nl/gallery/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/eilean-donan-castle/</loc>
+    <loc>https://blog.codecrusaders.nl/tags/eilean-donan-castle/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/glennfinnan-viaduct/</loc>
+    <loc>https://blog.codecrusaders.nl/tags/glennfinnan-viaduct/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/holidays/</loc>
+    <loc>https://blog.codecrusaders.nl/categories/holidays/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/gallery/my-trip-to-scotland/</loc>
+    <loc>https://blog.codecrusaders.nl/author/lednerb/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/scotland/</loc>
+    <loc>https://blog.codecrusaders.nl/gallery/my-trip-to-scotland/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/travelling/</loc>
+    <loc>https://blog.codecrusaders.nl/tags/scotland/</loc>
     <lastmod>2021-11-01T18:01:26+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/ansible/</loc>
+    <loc>https://blog.codecrusaders.nl/categories/travelling/</loc>
+    <lastmod>2021-11-01T18:01:26+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/categories/code/</loc>
+    <lastmod>2021-05-29T16:26:16+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/nsxt/</loc>
+    <lastmod>2021-05-29T16:26:16+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/</loc>
+    <lastmod>2021-05-29T16:26:16+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/powercli/</loc>
+    <lastmod>2021-05-29T16:26:16+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/powershell/</loc>
+    <lastmod>2021-05-29T16:26:16+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/ansible/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/categories/ansible/</loc>
+    <loc>https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/article/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</loc>
+    <loc>https://blog.codecrusaders.nl/tags/vds/</loc>
     <lastmod>2020-06-05T15:36:17+00:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/tags/devops/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/dvs/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/tags/vds/</loc>
-    <lastmod>2020-06-05T15:36:17+00:00</lastmod>
-  </url><url>
-    <loc>https://blogger.technokoning.nl/page/gallery/</loc>
+    <loc>https://blog.codecrusaders.nl/page/gallery/</loc>
     <lastmod>2020-03-16T17:23:01+01:00</lastmod>
   </url><url>
-    <loc>https://blogger.technokoning.nl/archive/</loc>
+    <loc>https://blog.codecrusaders.nl/archive/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://blogger.technokoning.nl/de/archive/"
+                href="https://blog.codecrusaders.nl/de/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blogger.technokoning.nl/archive/"
+                href="https://blog.codecrusaders.nl/archive/"
                 />
   </url><url>
-    <loc>https://blogger.technokoning.nl/series/</loc>
+    <loc>https://blog.codecrusaders.nl/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://blogger.technokoning.nl/de/series/"
+                href="https://blog.codecrusaders.nl/de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blogger.technokoning.nl/series/"
+                href="https://blog.codecrusaders.nl/series/"
                 />
   </url>
 </urlset>

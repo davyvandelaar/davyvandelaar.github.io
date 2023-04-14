@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on CodeCrusaders</title>
+    <link>https://blog.codecrusaders.nl/categories/code/</link>
+    <description>Recent content in code on CodeCrusaders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 29 May 2021 16:26:16 +0000</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nsxt Powercli Export Loadbalancer</title>
+      <link>https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/</link>
+      <pubDate>Sat, 29 May 2021 16:26:16 +0000</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/</guid>
+      <description>ow to export NSX-T loadbalancer information with PowerCLI? This question popped in my mind after a customer request to generate a list with their loadbalancers and associated virtual servers. This was not as easy as I thought! First of all, the NSX-T userinterface is not very export-friendly and i could not find a way to export data. That doesn’t matter though, because I am an automation kinda guy anyways. So I thought let’s take a look at PowerCLI for NSX-T.</description>
+    </item>
+    
+    <item>
+      <title>Creating Uniform Portgroups on VSphere Distributed Switch With Ansible</title>
+      <link>https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</link>
+      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</guid>
+      <description>If you are a vSphere administrator managing environments with multiple clusters and vSphere Distributed Switches, then you are probably aware that naming portgroups can sometimes be quite a challenge.
+Especially when similar portgroups have to exist on more than one vSphere Distributed Switch (VDS), because you can’t have duplicate portgroup names within one vCenter. To avoid clutter you want to create those portgroups in an uniform and automated way. Well, at least i do.</description>
+    </item>
+    
+  </channel>
+</rss>

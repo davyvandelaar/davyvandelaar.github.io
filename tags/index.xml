@@ -2,187 +2,133 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CodeCrusaders</title>
-    <link>https://blogger.technokoning.nl/tags/</link>
+    <link>https://blog.codecrusaders.nl/tags/</link>
     <description>Recent content in Tags on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Mar 2023 17:28:44 +0100</lastBuildDate><atom:link href="https://blogger.technokoning.nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 17:22:23 +0100</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NSXT</title>
-      <link>https://blogger.technokoning.nl/tags/nsxt/</link>
-      <pubDate>Wed, 22 Mar 2023 17:28:44 +0100</pubDate>
+      <title>certification</title>
+      <link>https://blog.codecrusaders.nl/tags/certification/</link>
+      <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/nsxt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>powercli</title>
-      <link>https://blogger.technokoning.nl/tags/powercli/</link>
-      <pubDate>Wed, 22 Mar 2023 17:28:44 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/powercli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>powershell</title>
-      <link>https://blogger.technokoning.nl/tags/powershell/</link>
-      <pubDate>Wed, 22 Mar 2023 17:28:44 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/powershell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vmware</title>
-      <link>https://blogger.technokoning.nl/tags/vmware/</link>
-      <pubDate>Wed, 22 Mar 2023 17:28:44 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/vmware/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/certification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cka</title>
-      <link>https://blogger.technokoning.nl/tags/cka/</link>
+      <link>https://blog.codecrusaders.nl/tags/cka/</link>
       <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/cka/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/cka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloudnative</title>
-      <link>https://blogger.technokoning.nl/tags/cloudnative/</link>
+      <link>https://blog.codecrusaders.nl/tags/cloudnative/</link>
       <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/cloudnative/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/cloudnative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kubernetes</title>
-      <link>https://blogger.technokoning.nl/tags/kubernetes/</link>
+      <link>https://blog.codecrusaders.nl/tags/kubernetes/</link>
       <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/kubernetes/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linuxfoundation</title>
-      <link>https://blogger.technokoning.nl/tags/linuxfoundation/</link>
+      <link>https://blog.codecrusaders.nl/tags/linuxfoundation/</link>
       <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/linuxfoundation/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/linuxfoundation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Discussions</title>
-      <link>https://blogger.technokoning.nl/tags/discussions/</link>
-      <pubDate>Mon, 01 Nov 2021 18:10:14 +0100</pubDate>
+      <title>vmware</title>
+      <link>https://blog.codecrusaders.nl/tags/vmware/</link>
+      <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/discussions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ideas</title>
-      <link>https://blogger.technokoning.nl/tags/ideas/</link>
-      <pubDate>Mon, 01 Nov 2021 18:10:14 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/ideas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Q&amp;A</title>
-      <link>https://blogger.technokoning.nl/tags/qa/</link>
-      <pubDate>Mon, 01 Nov 2021 18:10:14 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/qa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Show and tell</title>
-      <link>https://blogger.technokoning.nl/tags/show-and-tell/</link>
-      <pubDate>Mon, 01 Nov 2021 18:10:14 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/show-and-tell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Support</title>
-      <link>https://blogger.technokoning.nl/tags/support/</link>
-      <pubDate>Mon, 01 Nov 2021 18:10:14 +0100</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/support/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/vmware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eilean Donan Castle</title>
-      <link>https://blogger.technokoning.nl/tags/eilean-donan-castle/</link>
+      <link>https://blog.codecrusaders.nl/tags/eilean-donan-castle/</link>
       <pubDate>Mon, 01 Nov 2021 18:01:26 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/eilean-donan-castle/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/eilean-donan-castle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Glennfinnan Viaduct</title>
-      <link>https://blogger.technokoning.nl/tags/glennfinnan-viaduct/</link>
+      <link>https://blog.codecrusaders.nl/tags/glennfinnan-viaduct/</link>
       <pubDate>Mon, 01 Nov 2021 18:01:26 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/glennfinnan-viaduct/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/glennfinnan-viaduct/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scotland</title>
-      <link>https://blogger.technokoning.nl/tags/scotland/</link>
+      <link>https://blog.codecrusaders.nl/tags/scotland/</link>
       <pubDate>Mon, 01 Nov 2021 18:01:26 +0100</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/scotland/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/scotland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nsxt</title>
+      <link>https://blog.codecrusaders.nl/tags/nsxt/</link>
+      <pubDate>Sat, 29 May 2021 16:26:16 +0000</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/tags/nsxt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powercli</title>
+      <link>https://blog.codecrusaders.nl/tags/powercli/</link>
+      <pubDate>Sat, 29 May 2021 16:26:16 +0000</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/tags/powercli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://blog.codecrusaders.nl/tags/powershell/</link>
+      <pubDate>Sat, 29 May 2021 16:26:16 +0000</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>https://blogger.technokoning.nl/tags/ansible/</link>
+      <link>https://blog.codecrusaders.nl/tags/ansible/</link>
       <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/ansible/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>devops</title>
-      <link>https://blogger.technokoning.nl/tags/devops/</link>
+      <title>vDS</title>
+      <link>https://blog.codecrusaders.nl/tags/vds/</link>
       <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
       
-      <guid>https://blogger.technokoning.nl/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dvs</title>
-      <link>https://blogger.technokoning.nl/tags/dvs/</link>
-      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/dvs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vds</title>
-      <link>https://blogger.technokoning.nl/tags/vds/</link>
-      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
-      
-      <guid>https://blogger.technokoning.nl/tags/vds/</guid>
+      <guid>https://blog.codecrusaders.nl/tags/vds/</guid>
       <description></description>
     </item>
     
