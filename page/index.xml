@@ -7,6 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 23 Mar 2023 16:54:51 +0000</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Home</title>
+      <link>https://blog.codecrusaders.nl/page/home/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/page/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://blog.codecrusaders.nl/page/code/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/page/code/</guid>
+      <description>find technical stuff here </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://blog.codecrusaders.nl/page/tags/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/page/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>https://blog.codecrusaders.nl/page/categories/</link>
+      <pubDate>Mon, 16 Mar 2020 18:00:17 +0100</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/page/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Certification</title>
       <link>https://blog.codecrusaders.nl/page/certifications/</link>
       <pubDate>Thu, 23 Mar 2023 16:54:51 +0000</pubDate>
@@ -30,6 +66,15 @@ Consultant
 strong focus on cloudnative and SDDC
 www.itq.eu
 My Story I have been working in IT as long as I can remember and I can truly say that I have always loved it! The world around us is always moving, always changing and I do embrace that. It is one of those things that makes the IT world so attractive and so much fun.</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://blog.codecrusaders.nl/page/gallery/</link>
+      <pubDate>Mon, 16 Mar 2020 17:23:01 +0100</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/page/gallery/</guid>
+      <description></description>
     </item>
     
   </channel>

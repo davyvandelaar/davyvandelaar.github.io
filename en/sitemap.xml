@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.codecrusaders.nl/page/home/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/page/code/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/page/tags/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/page/categories/</loc>
+    <lastmod>2020-03-16T18:00:17+01:00</lastmod>
+  </url><url>
     <loc>https://blog.codecrusaders.nl/page/certifications/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
@@ -87,6 +99,9 @@
   </url><url>
     <loc>https://blog.codecrusaders.nl/page/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/page/gallery/</loc>
+    <lastmod>2020-03-16T17:23:01+01:00</lastmod>
   </url><url>
     <loc>https://blog.codecrusaders.nl/archive/</loc>
     <xhtml:link
