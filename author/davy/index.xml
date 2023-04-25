@@ -5,7 +5,7 @@
     <link>https://blog.codecrusaders.nl/author/davy/</link>
     <description>Recent content in Davy on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Mar 2023 16:54:51 +0000</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/author/davy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 17:27:31 +0200</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/author/davy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Certification</title>
       <link>https://blog.codecrusaders.nl/page/certifications/</link>
@@ -33,31 +33,12 @@ My Story I have been working in IT as long as I can remember and I can truly say
     </item>
     
     <item>
-      <title>Online Lab for Kubernetes</title>
-      <link>https://blog.codecrusaders.nl/article/2023/online-lab-for-kubernetes/</link>
-      <pubDate>Wed, 22 Mar 2023 17:22:23 +0100</pubDate>
+      <title>Navigating Kubecon 2023 Like a Newbie</title>
+      <link>https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/</link>
+      <pubDate>Tue, 25 Apr 2023 17:27:31 +0200</pubDate>
       
-      <guid>https://blog.codecrusaders.nl/article/2023/online-lab-for-kubernetes/</guid>
-      <description>Good news everyone! I passed my CKA Exam and I got a pass on the first try. To practice I used an online lab and I have to say, I am a fan. This is why I am going to share how I set up an online lab for Kubernetes. How it was set up, how I used it and why it is so great. Little disclaimer, it is not a free solution.</description>
-    </item>
-    
-    <item>
-      <title>Nsxt Powercli Export Loadbalancer</title>
-      <link>https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/</link>
-      <pubDate>Sat, 29 May 2021 16:26:16 +0000</pubDate>
-      
-      <guid>https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/</guid>
-      <description>ow to export NSX-T loadbalancer information with PowerCLI? This question popped in my mind after a customer request to generate a list with their loadbalancers and associated virtual servers. This was not as easy as I thought! First of all, the NSX-T userinterface is not very export-friendly and i could not find a way to export data. That doesn’t matter though, because I am an automation kinda guy anyways. So I thought let’s take a look at PowerCLI for NSX-T.</description>
-    </item>
-    
-    <item>
-      <title>Creating Uniform Portgroups on VSphere Distributed Switch With Ansible</title>
-      <link>https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</link>
-      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
-      
-      <guid>https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</guid>
-      <description>If you are a vSphere administrator managing environments with multiple clusters and vSphere Distributed Switches, then you are probably aware that naming portgroups can sometimes be quite a challenge.
-Especially when similar portgroups have to exist on more than one vSphere Distributed Switch (VDS), because you can’t have duplicate portgroup names within one vCenter. To avoid clutter you want to create those portgroups in an uniform and automated way. Well, at least i do.</description>
+      <guid>https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/</guid>
+      <description>This year the KubeCon + CloudNativeCon 2023 event took place in the RAI Amsterdam. With 10k+ tickets sold the event was completely sold out. For me and for over 5000 (!) other attendees this was the first in person visit to KubeCon + CloudNativeCon ever. To me this underlines the importance of cloudnative and it&amp;rsquo;s eco-system. Also, enough material and impressions to write an article on &amp;lsquo;Navigating Kubecon 2023 Like a Newbie&amp;rsquo;.</description>
     </item>
     
   </channel>

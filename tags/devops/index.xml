@@ -2,18 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devops on CodeCrusaders</title>
-    <link>https://blogger.technokoning.nl/tags/devops/</link>
+    <link>https://blog.codecrusaders.nl/tags/devops/</link>
     <description>Recent content in devops on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Jun 2020 15:36:17 +0000</lastBuildDate><atom:link href="https://blogger.technokoning.nl/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 17:27:31 +0200</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating Uniform Portgroups on VSphere Distributed Switch With Ansible</title>
-      <link>https://blogger.technokoning.nl/article/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</link>
-      <pubDate>Fri, 05 Jun 2020 15:36:17 +0000</pubDate>
+      <title>Navigating Kubecon 2023 Like a Newbie</title>
+      <link>https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/</link>
+      <pubDate>Tue, 25 Apr 2023 17:27:31 +0200</pubDate>
       
-      <guid>https://blogger.technokoning.nl/article/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/</guid>
-      <description>If you are a vSphere administrator managing environments with multiple clusters and vSphere Distributed Switches, then you are probably aware that naming portgroups can sometimes be quite a challenge.
-Especially when similar portgroups have to exist on more than one vSphere Distributed Switch (VDS), because you can’t have duplicate portgroup names within one vCenter. To avoid clutter you want to create those portgroups in an uniform and automated way. Well, at least i do.</description>
+      <guid>https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/</guid>
+      <description>This year the KubeCon + CloudNativeCon 2023 event took place in the RAI Amsterdam. With 10k+ tickets sold the event was completely sold out. For me and for over 5000 (!) other attendees this was the first in person visit to KubeCon + CloudNativeCon ever. To me this underlines the importance of cloudnative and it&amp;rsquo;s eco-system. Also, enough material and impressions to write an article on &amp;lsquo;Navigating Kubecon 2023 Like a Newbie&amp;rsquo;.</description>
     </item>
     
   </channel>
