@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+
+
+    
+
+    
+         
+    
+
+    
+
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://blog.codecrusaders.nl">
+    <meta name="author" content="CodeCrusaders">
+    <meta name="description" content="CodeCrusaders - technical blog">
+    <meta name="keywords" content="blog,code,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
+    <meta name="generator" content="Hugo 0.111.2">
+    <title>
+        
+           
+               Discover Govc: set and sync vCenter permissions &vert; CodeCrusaders
+           
+        
+    </title>
+    <meta itemprop="name" content="Discover Govc: set and sync vCenter permissions">
+    <meta itemprop="description" content="Discover Govc: set and sync vCenter permissions - CodeCrusaders - technical blog">
+    <meta property="og:site_name" content="CodeCrusaders">
+
+    <meta property="og:title" content="Discover Govc: set and sync vCenter permissions" />
+<meta property="og:description" content="No longer than a couple of weeks ago I stumbled on this nifty little tool called govc. Sure, I heard of this before, but I did not realize how powerful this tool can be. Until now! So, I decided to write a blog about my specific use-case, Set and sync vCenter permissions with an openLDAP group.
+What is govc Govc is basicly a wrapper around GO modules for vSphere. To be more specific, it relies on the official VMware govmomi library." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/" /><meta property="og:image" content="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/featuredImage.png"/><meta property="article:section" content="code" />
+<meta property="article:published_time" content="2023-08-18T14:58:29+02:00" />
+<meta property="article:modified_time" content="2023-08-18T14:58:29+02:00" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+    <link href="/code/2023/discover-govc-vcenter-permissions/" rel="alternate" type="application/rss+xml" title="CodeCrusaders" />
+    <link href="/code/2023/discover-govc-vcenter-permissions/" rel="feed" type="application/rss+xml" title="CodeCrusaders" />
+    
+
+    
+    <link rel="canonical" href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
+    
+
+    <link rel="stylesheet" href="https://blog.codecrusaders.nl/theme.css">
+
+    
+
+    
+        
+    
+
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+    
+
+    
+    <nav class="permanentTopNav sticky">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="/" target="">Home</a></li>
+                
+            
+                
+                    
+                
+            
+                
+                    <li><a href="/tags/" target="">Tags</a></li>
+                
+            
+                
+                    <li><a href="/categories/" target="">Categories</a></li>
+                
+            
+                
+                    <li><a href="https://blog.codecrusaders.nl/page/certifications/">Certification</a></li>
+                
+            
+                
+                    <li><a href="https://blog.codecrusaders.nl/page/about-me/">About Me</a></li>
+                
+            
+                
+                    
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header class="sticky">
+
+    <div class="container">
+        <div class="logo">
+            <a href="/" class="logo">
+                
+                    
+                    
+                        
+                    
+                    <img src="https://seccdn.libravatar.org/avatar/a184265c5399a98f3906f669f7ddb9dd?d=mm&size=200" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/">
+                    CodeCrusaders
+                </a>
+            </h3>
+
+            
+                <span class="subtitle">a blog with some code</span>
+            
+        </div>
+
+        
+
+        
+            <div class="toggler permanentTopNav">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
+    <i class="fas fa-fw fa-code"></i>
+</a>
+
+<article class="default article">
+    
+    <div class="featured-image">
+        <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
+            
+                <img src="/code/2023/discover-govc-vcenter-permissions/featuredImage_hu115b6e765d3a5ce12fbf4110fb543771_30951_700x350_fill_q95_box_smart1_3.png" alt="">
+            
+        </a>
+    </div>
+
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
+            Discover Govc: set and sync vCenter permissions
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2023-08-18</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://blog.codecrusaders.nl/categories/code/">code</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://blog.codecrusaders.nl/author/davy/">Davy</a>
+                
+            </span>
+        
+    </div>
+
+    
+        
+            <h2>Table of Contents</h2>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-govc">What is govc</a></li>
+    <li><a href="#use-case">Use case</a>
+      <ul>
+        <li><a href="#context">Context</a></li>
+        <li><a href="#the-idea">The idea</a></li>
+        <li><a href="#the-goal-1">The goal (1)</a></li>
+        <li><a href="#the-goal-2">The goal (2)</a></li>
+      </ul>
+    </li>
+    <li><a href="#creating-the-script">Creating the script</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#investigating-govc">Investigating govc</a></li>
+        <li><a href="#investigating-bash">Investigating bash</a></li>
+        <li><a href="#thoughts">Thoughts</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-script">The script</a>
+      <ul>
+        <li><a href="#script-explained">Script explained</a></li>
+        <li><a href="#output-examples">Output examples</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+        
+
+        <p>No longer than a couple of weeks ago I stumbled on this nifty little tool called <strong>govc</strong>. Sure, I heard of this before, but I did not realize how powerful this tool can be. Until now! So, I decided to write a blog about my specific use-case, <em>Set and sync vCenter permissions with an openLDAP group</em>.</p>
+<h2 id="what-is-govc">What is govc</h2>
+<p>Govc is basicly a wrapper around GO modules for vSphere. To be more specific, it relies on the official VMware govmomi library. The syntax is incredibly suitable for usage in Bash scripting and that makes it easy to use in cloudnative environments. For example, integration with Concourse pipelines.</p>
+<p>The syntax is kept clean and simple. Most commands speak to itself and examples of usage are provided. When used in combination with Bash it is easy to search and manipulate results. Because of the Bash compatability it is also incredibly easy to mix in and combine other resources from your environment. Also, for advanced use most search queries can also output in json. Which you can then search with jq and do lots of cool stuff with it. Advanced json and jq usage with govc is not part of this writing.</p>
+<h2 id="use-case">Use case</h2>
+<h3 id="context">Context</h3>
+<p>For my project I have been working in an environment that is highly automated. There is a vCenter installation present and it has a FreeIPA openLDAP integration. As the environment is growing, more admins need access to the environment and I want to automate this. Unfortunately vCenter won&rsquo;t accept sso usergroups from FreeIPA for authentication. Well, it kinda does, but then it is not working. Long story. It does accept individual sso users from FreeIPA though. So, how to go forward with this?</p>
+<h3 id="the-idea">The idea</h3>
+<p>In my line of thinking the vcenter-admin usergroup in FreeIPA must be leading. Meaning, somehow I need a way to leverage the users in that group to vCenter for proper authentication. Even though vCenter won&rsquo;t accept a FreeIPA usergroup. To mimic group behaviour I came up with the idea to create a &lsquo;admin-vcenter&rsquo; role in vCenter and add individual sso users to this role. Originating from the vcenter-admin sso group in FreeIPA. Then give the role permissions on the vCenter level. This should give users in the right FreeIPA sso group the permission to login to vCenter and have admin rights.</p>
+<h3 id="the-goal-1">The goal (1)</h3>
+<p>Create a script that reads from a FreeIPA usergroup and sync this information with a vCenter role to set permissions for the users. When the role does not exist, it has to be created automatically. Permissions for users should match the users in an existing FreeIPA group. Mutations should be processed automatically. Eventually the script should be compatible for integration with a Concourse pipeline or at least be suitable to be scheduled as a job.</p>
+<h3 id="the-goal-2">The goal (2)</h3>
+<p>Ofcourse I understand that this use-case is pretty specific and caused by behaviour of FreeIPA. FreeIPA is not a vCenter sso integration you will find very often. However, my goal is to show you what govc in combination with bash can do and how it can help to solve problems and complex automation questions.</p>
+<h2 id="creating-the-script">Creating the script</h2>
+<p>Usually I like my scripts as short and efficient as possible. As being a newbie on as well govc AND bash. I had a lot to figure out. It was a fun ride though and I am pretty sure there is more to come. Feel free to comment if you feel like the script could use improvements.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>govc - latest
+<ul>
+<li>see instructions: <a href="https://github.com/vmware/govmomi/blob/main/govc/README.md">https://github.com/vmware/govmomi/blob/main/govc/README.md</a></li>
+<li>in my case I used <strong>go install</strong> because I have th Go toolchain present</li>
+<li>(optional) set environment variables. When you do this you can comment them out in the script (check with govc env)</li>
+</ul>
+</li>
+<li>bash terminal</li>
+<li>vCenter (or ESXi) - at least 6.x or later
+<ul>
+<li>active sso integration, preferrably openLDAP</li>
+</ul>
+</li>
+<li>FreeIPA
+<ul>
+<li>or a similar openLDAP</li>
+<li>might even by an array created by yourself</li>
+<li>when you diverge from FreeIPA, some of the grepping might fail</li>
+</ul>
+</li>
+</ul>
+<h3 id="investigating-govc">Investigating govc</h3>
+<p>First of all I needed to get comfortable with govc. Basicly this meant trying a lot of commands and finding out what happens. I like the <a href="https://github.com/vmware/govmomi/blob/main/govc/USAGE.md"><strong>USAGE.md</strong></a> page. This page shows all commands with options and examples. Just try it out. Finally, for me it came down to the following commands.<br>
+<code>$ govc role.ls          # list of roles in the vCenter</code><br>
+<code>$ govc role.create     # create role in the vCenter</code><br>
+<code>$ govc permissions.ls   # list of permissions in the vCenter</code><br>
+<code>$ govc permissions.set  # set permissions on a role in the vCenter</code></p>
+<p>One thing to be aware of is the <code>$ govc env</code> command. This will show you the environment variables present. If these are not present you have to put them in the script. The vcenter URL accepts the following format:<br>
+<code>GOVC_URL=&quot;${GOVC_USERNAME}:${GOVC_PASSWORD}@${vc_ip}&quot;</code></p>
+<h3 id="investigating-bash">Investigating bash</h3>
+<p>As I mentioned before, bash scripting is fairly new to me. I have read it and have used it. Written myself, not so much. To me it is important to learn though. That is why I was happy to discover that it has lots of similarities with scripting I do know. Personally, I like short blocks of code. Clear beginning and end. Bash does just that.</p>
+<p>Then came the issue of sorting and grepping. That is where things got a little complicated. I can do some grepping, but I am certainly not used to advanced cutting and sorting tools or awk. So, ofcourse I asked ChatGPT. That helped some. Also, some good blogs and forums helped me out.</p>
+<p>Basicly what I was trying to do is retrieving an unique accountname from FreeIPA and check it against vCenter. Because of differences in listing formats that was certainly not as easy as it sounds.</p>
+<p>In my script you will see the option <code>-z</code> in a lot of statements. This tell the script that if the command does not return any results, do something. Which is very useful if for example I want to check if a user or a role exists.</p>
+<h3 id="thoughts">Thoughts</h3>
+<p>For those who don&rsquo;t know. When you do an openLDAP integration in vcenter, all the openLDAP users become visible in vCenter and are available for connecting to roles for example. The real tricky part is to retrieve an exact accountname from FreeIPA and then match it with the user visible in vCenter. It is worth figuring out though. Because now I am able to filter users from a group in FreeIPA and leverage them for usage with govc in vCenter. And vice versa! That is much cooler than it actually sounds.</p>
+<h2 id="the-script">The script</h2>
+<p><strong><details><summary>Open To Show Code</summary></strong></p>
+<div class="highlight" title="testtest"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#75715e">#!/bin/bash -e
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#75715e"># normally you would set these variables somewhere else</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>export GOVC_INSECURE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>export vc_ip<span style="color:#f92672">=</span>your_vc_ip
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>export GOVC_PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>GOVC_PASSWORD<span style="color:#66d9ef">:-</span><span style="color:#e6db74">&#34;yourpassword&#34;</span><span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>export GOVC_USERNAME<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>GOVC_USERNAME<span style="color:#66d9ef">:-</span><span style="color:#e6db74">&#34;yourusername@my.homelab&#34;</span><span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>export GOVC_URL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>GOVC_USERNAME<span style="color:#e6db74">}</span><span style="color:#e6db74">:</span><span style="color:#e6db74">${</span>GOVC_PASSWORD<span style="color:#e6db74">}</span><span style="color:#e6db74">@</span><span style="color:#e6db74">${</span>vc_ip<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#75715e"># some coloring for output. Just because I can</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>RED<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\e[31m&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>GREEN<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\e[32m&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>YELLOW<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\e[33m&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>BLUE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\e[34m&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>ENDCOLOR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\e[0m&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span><span><span style="color:#75715e"># Some variables</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span><span>entity<span style="color:#f92672">=</span>/        <span style="color:#75715e"># leave like this for entry at vcenter level. </span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span><span>domain<span style="color:#f92672">=</span>         <span style="color:#75715e"># example: my.homelab</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span><span>role_name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>    <span style="color:#75715e"># example &#34;my-role&#34;,  will be created in vcenter</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span><span>ldapgroup<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>    <span style="color:#75715e"># example: &#34;my-sso-ldap-group&#34;, must exist in your ldap </span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span><span><span style="color:#75715e"># check if role exists, if not, create the role</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -z <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>govc role.ls | grep -w <span style="color:#e6db74">&#34;</span>$role_name<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span> ; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span><span>    echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>YELLOW<span style="color:#e6db74">}</span><span style="color:#e6db74"> </span>$role_name<span style="color:#e6db74"> not found - creating new role </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span><span>    govc role.create $role_name <span style="color:#66d9ef">$(</span>govc role.ls Admin | grep -v Datacenter.<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27</span><span>    echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>GREEN<span style="color:#e6db74">}</span><span style="color:#e6db74">Role </span>$role_name<span style="color:#e6db74"> created. Checking for permissions </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28</span><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29</span><span>    echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>GREEN<span style="color:#e6db74">}</span><span style="color:#e6db74">Role </span>$role_name<span style="color:#e6db74"> present. Checking for permissions </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30</span><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32</span><span><span style="color:#75715e"># extract users from $ldapgroup group that exists in FreeIPA and make an array</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33</span><span>mapfile -t ldapgroup_members &lt; &lt;<span style="color:#f92672">(</span>ipa group-show $ldapgroup | grep <span style="color:#e6db74">&#34;Member users:&#34;</span>  | cut -d <span style="color:#e6db74">&#34;:&#34;</span> -f <span style="color:#ae81ff">2</span> | tr -d <span style="color:#e6db74">&#39;[:space:]&#39;</span> | tr <span style="color:#e6db74">&#39;,&#39;</span> <span style="color:#e6db74">&#39;\n&#39;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34</span><span><span style="color:#75715e"># uncomment below lines if you want to read the array</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35</span><span><span style="color:#75715e">#for member in &#34;${ldapgroup_members[@]}&#34; ; do</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36</span><span><span style="color:#75715e">#    echo &#34;sso-$member&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37</span><span><span style="color:#75715e">#done</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39</span><span><span style="color:#75715e"># check if retrieved $ldapgroup  users are present in given Role. If not, add to Role ($role_name).</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40</span><span><span style="color:#66d9ef">for</span> user in <span style="color:#e6db74">${</span>ldapgroup_members[@]<span style="color:#e6db74">}</span> ; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41</span><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -z <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>govc permissions.ls <span style="color:#e6db74">&#34;</span>$entity<span style="color:#e6db74">&#34;</span> | grep -w <span style="color:#e6db74">&#34;</span>$role_name<span style="color:#e6db74">&#34;</span> | awk -F<span style="color:#e6db74">&#39; &#39;</span> -v user<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$user<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#39; NR&gt;0 {sub(/.*\\/, &#34;&#34;, $3); if ($3==user) print $3}&#39;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span> ; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42</span><span>        echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>YELLOW<span style="color:#e6db74">}</span><span style="color:#e6db74">LDAP groupmember: </span>$user<span style="color:#e6db74"> is added to role </span>$role_name<span style="color:#e6db74"> </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43</span><span>        govc permissions.set -principal $user@$domain -role $role_name $entity
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44</span><span>    <span style="color:#66d9ef">else</span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45</span><span>        echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>GREEN<span style="color:#e6db74">}</span><span style="color:#e6db74">LDAP groupmember: </span>$user<span style="color:#e6db74"> is already present in role </span>$role_name<span style="color:#e6db74"> </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46</span><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47</span><span><span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49</span><span><span style="color:#75715e"># create variable that reads permissions in vcenter and compares it to users in $ldapgroup (array)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50</span><span><span style="color:#75715e"># if user has a vcenter permission but is not member of the correct ldap group, permission is deleted on the entity</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51</span><span>adminpermissions<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>govc permissions.ls $entity | grep -w $role_name | awk <span style="color:#e6db74">&#39;NR&gt;0 {sub(/.*\\/, &#34;&#34;, $3); print $3}&#39;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52</span><span><span style="color:#75715e">#echo -e &#34;${BLUE}all users connected to: $role_name:\n$adminpermissions ${ENDCOLOR}&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53</span><span>echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BLUE<span style="color:#e6db74">}</span><span style="color:#e6db74">syncing with ldapgroup </span>$ldapgroup<span style="color:#e6db74"> ... </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54</span><span><span style="color:#66d9ef">while</span> IFS<span style="color:#f92672">=</span> read -r permission_users; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55</span><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> ! <span style="color:#e6db74">&#34; </span><span style="color:#e6db74">${</span>ldapgroup_members[@]<span style="color:#e6db74">}</span><span style="color:#e6db74"> &#34;</span> <span style="color:#f92672">=</span>~ <span style="color:#e6db74">&#34; </span><span style="color:#e6db74">${</span>permission_users<span style="color:#e6db74">}</span><span style="color:#e6db74"> &#34;</span> <span style="color:#f92672">]]</span> ; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56</span><span>    	echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>RED<span style="color:#e6db74">}</span>$permission_users<span style="color:#e6db74"> niet aanwezig in juiste ldap groep </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57</span><span>    	govc permissions.remove -principal $permission_users@$domain <span style="color:#e6db74">&#34;</span>$entity<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58</span><span>    	echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>YELLOW<span style="color:#e6db74">}</span>$permission_users<span style="color:#e6db74"> uit alle rollen op </span>$entity<span style="color:#e6db74"> verwijderd </span><span style="color:#e6db74">${</span>ENDCOLOR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59</span><span><span style="color:#75715e">#    else </span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60</span><span><span style="color:#75715e">#    echo &#34;$permission_users is  lid van de juiste LDAP groep&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61</span><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62</span><span><span style="color:#66d9ef">done</span> <span style="color:#f92672">&lt;&lt;&lt;</span> <span style="color:#e6db74">&#34;</span>$adminpermissions<span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div></details>
+<br>
+<h3 id="script-explained">Script explained</h3>
+<p>On top of things already written down, some additional explaining.</p>
+<h4 id="line-4-to-8">line 4 to 8</h4>
+<p>It is recommended to set environment variables. However, for testing purposes you can also do an export from the script. These lines make sure you have a vcenter connection.</p>
+<h4 id="line-11-to-15">line 11 to 15</h4>
+<p>Just some coloring for the output.</p>
+<h4 id="line-18-to-21">line 18 to 21</h4>
+<ul>
+<li>Variables needed for the script. Make sure they are filled out. The variable <code>entity</code> makes sure you are targeting the vcenter.</li>
+<li>It is also possible to target the Datacenter or specified cluster with <code>entity=/Datacanter/clustername</code>.</li>
+<li><code>ldapgroup</code> must already exist.</li>
+</ul>
+<h4 id="line-24-to-30">line 24 to 30</h4>
+<p>Checks if the desired rolename is already present in vCenter. If the rolename cannot be found it will be created. If the rolename already exists the script will continue operations targeting this role.</p>
+<h4 id="line-33-to-37">line 33 to 37</h4>
+<p>Line 33 reads a group from FreeIPA (ldapgroup_members), selects the unique username without domain notations and puts them in an array. Uncomment line 35-37 to have the array contents printed.</p>
+<h4 id="line-40-to-47">line 40 to 47</h4>
+<p>Reads the array and checks for each item if the user already has permissions with the role. If the result is empty it assumes the user has no permissions. Permissions for the user will be set on the vCenter level.</p>
+<h4 id="line-51-to-53">line 51 to 53</h4>
+<p>Find all users tied to the role. This output will be used to check against the ldap sso group.</p>
+<h4 id="line-54-to-62">line 54 to 62</h4>
+<p>Checks if the users attached to the role are still a member of the sso group in FreeIPA. Since the sso group in FreeIPA should be leading and the source of truth, the script will remove acces from users not present in the FreeIPA sso group.</p>
+<h3 id="output-examples">Output examples</h3>
+<p>Two examples of output from the script. Due to circumstances it is in Dutch.</p>
+<h4 id="new-user-present-in-ldapgroup">new user present in ldapgroup</h4>
+<p>In this case I put myself in the correct ldapgroup ant then ran the script.</p>
+<ul>
+<li>First line confirms the Role already exists in vCenter</li>
+<li>Line two and three confirm users from the ldap group already having permissions</li>
+<li>Line number four confirms that my user account is added to the role in vCenter</li>
+<li>Last line in blue is the syncing back to LDAP. There is nothing to sync back for now</li>
+</ul>
+<p><figure><img src="./ldap_add_permission.jpg"/>
+</figure>
+
+<br>
+<figure><img src="./vcenter_add_permission.png"/>
+</figure>
+
+<br></p>
+<h4 id="user-removed-from-ldapgroup">user removed from ldapgroup</h4>
+<p>I removed myself from the ldapgroup and ran the script. Green lines are omitted from this example.</p>
+<ul>
+<li>First line in blue indicates it is checking the ldapgroup against vcenter permissions</li>
+<li>Second line tells me that I am not in the admin ldapgroup anymore</li>
+<li>Third line says that I am removed from all roles on the entity vcenter (/)</li>
+</ul>
+<p><figure><img src="./ldap_remove_permission.png"/>
+</figure>
+
+<br></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This was a really fun ride! I am most certainly triggered to explore and do more with govc. Govc is already really powerfull in its basic form, but becomes even more powerfull when you know how to use json and jq.</p>
+<p>For me this was mostly about discovering govc from scratch and discover what it can do. Then using govc in bash and combine it with other tooling and that worked out. Great!</p>
+<p>Hopefully I was able to take you on my ride with this blog. If you feel there is room for improvement, please don&rsquo;t hesitate to contact me.</p>
+<p>Thanks for reading</p>
+
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/cloudnative/">cloudnative</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/govc/">govc</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/devops/">devops</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/vcenter/">vcenter</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/openldap/">openldap</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/bash/">bash</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+            
+
+            
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">Discover Govc: set and sync vCenter permissions</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/">Navigating Kubecon 2023 Like a Newbie</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://blog.codecrusaders.nl/article/2023/online-lab-for-kubernetes/">Online Lab for Kubernetes</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="https://blog.codecrusaders.nl/categories/"><strong>Categories</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://blog.codecrusaders.nl/categories/article/">article (2)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://blog.codecrusaders.nl/categories/code/">code (1)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://blog.codecrusaders.nl/categories/devops/">devops (1)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Social media</strong>
+                
+                <a href="https://twitter.com/vDeLaar" target="_blank" rel="me"><em class="fab fa-twitter"></em></a>
+                
+                <a href="https://github.com/davyvandelaar" target="_blank" rel=""><em class="fab fa-github"></em></a>
+                
+            </div>
+            
+
+            
+
+            
+            <div class="archive">
+                
+                <a href="https://blog.codecrusaders.nl/archive/"><strong>Archive</strong></a>
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/Lednerb" target="_blank">
+                &copy;
+                
+                2023
+                
+                by Lednerb
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7K04J065K"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-C7K04J065K', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+    <script src="https://blog.codecrusaders.nl/theme.js"></script>
+    
+
+    
+    
+    
+
+    
+
+    
+</body>
+
+</html>

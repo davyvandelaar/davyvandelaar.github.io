@@ -20,15 +20,8 @@
     <loc>https://blog.codecrusaders.nl/page/about-me/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>
   </url><url>
-    <loc>https://blog.codecrusaders.nl/gallery/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.codecrusaders.nl/categories/article/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
-  </url><url>
     <loc>https://blog.codecrusaders.nl/author/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -40,8 +33,11 @@
                 href="https://blog.codecrusaders.nl/author/"
                 />
   </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/bash/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
     <loc>https://blog.codecrusaders.nl/categories/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -54,10 +50,13 @@
                 />
   </url><url>
     <loc>https://blog.codecrusaders.nl/tags/cloudnative/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/categories/code/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
   </url><url>
     <loc>https://blog.codecrusaders.nl/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -69,10 +68,45 @@
                 href="https://blog.codecrusaders.nl/"
                 />
   </url><url>
+    <loc>https://blog.codecrusaders.nl/code/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
     <loc>https://blog.codecrusaders.nl/author/davy/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
   </url><url>
     <loc>https://blog.codecrusaders.nl/tags/devops/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/govc/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/openldap/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blog.codecrusaders.nl/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.codecrusaders.nl/tags/"
+                />
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/tags/vcenter/</loc>
+    <lastmod>2023-08-18T14:58:29+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/gallery/</loc>
+    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://blog.codecrusaders.nl/categories/article/</loc>
     <lastmod>2023-04-25T17:27:31+02:00</lastmod>
   </url><url>
     <loc>https://blog.codecrusaders.nl/tags/kubernetes/</loc>
@@ -84,18 +118,8 @@
     <loc>https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/</loc>
     <lastmod>2023-04-25T17:27:31+02:00</lastmod>
   </url><url>
-    <loc>https://blog.codecrusaders.nl/tags/</loc>
-    <lastmod>2023-04-25T17:27:31+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blog.codecrusaders.nl/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.codecrusaders.nl/tags/"
-                />
+    <loc>https://blog.codecrusaders.nl/code/2023/</loc>
+    <lastmod>2023-03-28T15:37:28+02:00</lastmod>
   </url><url>
     <loc>https://blog.codecrusaders.nl/page/</loc>
     <lastmod>2023-03-23T16:54:51+00:00</lastmod>

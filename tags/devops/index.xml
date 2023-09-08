@@ -5,7 +5,17 @@
     <link>https://blog.codecrusaders.nl/tags/devops/</link>
     <description>Recent content in devops on CodeCrusaders</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Apr 2023 17:27:31 +0200</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 14:58:29 +0200</lastBuildDate><atom:link href="https://blog.codecrusaders.nl/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discover Govc: set and sync vCenter permissions</title>
+      <link>https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/</link>
+      <pubDate>Fri, 18 Aug 2023 14:58:29 +0200</pubDate>
+      
+      <guid>https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/</guid>
+      <description>No longer than a couple of weeks ago I stumbled on this nifty little tool called govc. Sure, I heard of this before, but I did not realize how powerful this tool can be. Until now! So, I decided to write a blog about my specific use-case, Set and sync vCenter permissions with an openLDAP group.
+What is govc Govc is basicly a wrapper around GO modules for vSphere. To be more specific, it relies on the official VMware govmomi library.</description>
+    </item>
+    
     <item>
       <title>Navigating Kubecon 2023 Like a Newbie</title>
       <link>https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/</link>

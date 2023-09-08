@@ -85,10 +85,6 @@
                 
             
                 
-                    <li><a href="/archive/" target="">Archive</a></li>
-                
-            
-                
                     <li><a href="https://blog.codecrusaders.nl/page/certifications/">Certification</a></li>
                 
             
@@ -153,24 +149,32 @@
     
         <div class="article-wrapper u-cf">
             
-                <a class="bubble" href="https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/">
+                <a class="bubble" href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
     <i class="fas fa-fw fa-code"></i>
 </a>
 
 <article class="default article">
     
+    <div class="featured-image">
+        <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
+            
+                <img src="/code/2023/discover-govc-vcenter-permissions/featuredImage_hu115b6e765d3a5ce12fbf4110fb543771_30951_700x350_fill_q95_box_smart1_3.png" alt="">
+            
+        </a>
+    </div>
+
 
     <div class="content">
     <h1 class="article-title">
-        <a href="https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/">
-            Nsxt Powercli Export Loadbalancer
+        <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">
+            Discover Govc: set and sync vCenter permissions
         </a>
     </h1>
 
     <div class="meta">
         
             
-                <span class="date moment">2021-05-29</span>
+                <span class="date moment">2023-08-18</span>
             
         
 
@@ -182,11 +186,6 @@
                     
                     
                         <a href="https://blog.codecrusaders.nl/categories/code/">code</a>
-                    
-                
-                    
-                    
-                        <a href="https://blog.codecrusaders.nl/categories/devops/">devops</a>
                     
                 
             </span>
@@ -203,112 +202,11 @@
     </div>
 
     
-        ow to export NSX-T loadbalancer information with PowerCLI? This question popped in my mind after a customer request to generate a list with their loadbalancers and associated virtual servers. This was not as easy as I thought! First of all, the NSX-T userinterface is not very export-friendly and i could not find a way to export data. That doesn’t matter though, because I am an automation kinda guy anyways. So I thought let’s take a look at PowerCLI for NSX-T.
+        No longer than a couple of weeks ago I stumbled on this nifty little tool called govc. Sure, I heard of this before, but I did not realize how powerful this tool can be. Until now! So, I decided to write a blog about my specific use-case, Set and sync vCenter permissions with an openLDAP group.
+What is govc Govc is basicly a wrapper around GO modules for vSphere. To be more specific, it relies on the official VMware govmomi library.
 
         
-            <a href="https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/" class="more">Continue reading</a>
-        
-    
-</div>
-
-    
-<div class="footer">
-
-
-    
-        <div class="tags">
-            <i class="fa fa-tags"></i>
-            <div class="links">
-                
-                    
-                    
-                    <a href="https://blog.codecrusaders.nl/tags/nsxt/">nsxt</a>
-                    
-                
-                    
-                    
-                    <a href="https://blog.codecrusaders.nl/tags/powercli/">powercli</a>
-                    
-                
-                    
-                    
-                    <a href="https://blog.codecrusaders.nl/tags/powershell/">powershell</a>
-                    
-                
-                    
-                    
-                    <a href="https://blog.codecrusaders.nl/tags/vmware/">vmware</a>
-                    
-                
-            </div>
-        </div>
-    
-
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
-        <div class="article-wrapper u-cf">
-            
-                <a class="bubble" href="https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/">
-    <i class="fas fa-fw fa-code"></i>
-</a>
-
-<article class="default article">
-    
-
-    <div class="content">
-    <h1 class="article-title">
-        <a href="https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/">
-            Creating Uniform Portgroups on VSphere Distributed Switch With Ansible
-        </a>
-    </h1>
-
-    <div class="meta">
-        
-            
-                <span class="date moment">2020-06-05</span>
-            
-        
-
-        
-
-        
-            <span class="categories">
-                
-                    
-                    
-                        <a href="https://blog.codecrusaders.nl/categories/code/">code</a>
-                    
-                
-                    
-                    
-                        <a href="https://blog.codecrusaders.nl/categories/devops/">devops</a>
-                    
-                
-            </span>
-        
-
-        
-            <span class="author">
-                
-                
-                    <a href="https://blog.codecrusaders.nl/author/davy/">Davy</a>
-                
-            </span>
-        
-    </div>
-
-    
-        If you are a vSphere administrator managing environments with multiple clusters and vSphere Distributed Switches, then you are probably aware that naming portgroups can sometimes be quite a challenge.
-Especially when similar portgroups have to exist on more than one vSphere Distributed Switch (VDS), because you can’t have duplicate portgroup names within one vCenter. To avoid clutter you want to create those portgroups in an uniform and automated way. Well, at least i do.
-
-        
-            <a href="https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/" class="more">Continue reading</a>
+            <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/" class="more">Continue reading</a>
         
     
 </div>
@@ -324,17 +222,32 @@ Especially when similar portgroups have to exist on more than one vSphere Distri
                 
                     
                     
-                    <a href="https://blog.codecrusaders.nl/tags/ansible/">ansible</a>
+                    <a href="https://blog.codecrusaders.nl/tags/cloudnative/">cloudnative</a>
                     
                 
                     
                     
-                    <a href="https://blog.codecrusaders.nl/tags/vds/">vDS</a>
+                    <a href="https://blog.codecrusaders.nl/tags/govc/">govc</a>
                     
                 
                     
                     
-                    <a href="https://blog.codecrusaders.nl/tags/vmware/">vmware</a>
+                    <a href="https://blog.codecrusaders.nl/tags/devops/">devops</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/vcenter/">vcenter</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/openldap/">openldap</a>
+                    
+                
+                    
+                    
+                    <a href="https://blog.codecrusaders.nl/tags/bash/">bash</a>
                     
                 
             </div>
@@ -372,19 +285,15 @@ Especially when similar portgroups have to exist on more than one vSphere Distri
                 
                 
                     <li>
+                        <a href="https://blog.codecrusaders.nl/code/2023/discover-govc-vcenter-permissions/">Discover Govc: set and sync vCenter permissions</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://blog.codecrusaders.nl/gallery/2023/navigating-kubecon-2023-like-a-newbie/">Navigating Kubecon 2023 Like a Newbie</a>
+                    </li>
+                
+                    <li>
                         <a href="https://blog.codecrusaders.nl/article/2023/online-lab-for-kubernetes/">Online Lab for Kubernetes</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://blog.codecrusaders.nl/gallery/my-trip-to-scotland/">My Trip to Scotland</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://blog.codecrusaders.nl/code/2021/nsxt-powercli-export-loadbalancer/">Nsxt Powercli Export Loadbalancer</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://blog.codecrusaders.nl/code/2020/creating-uniform-portgroups-vsphere-distributed-switch-ansible/">Creating Uniform Portgroups on VSphere Distributed Switch With Ansible</a>
                     </li>
                 
             </ul>
@@ -401,31 +310,19 @@ Especially when similar portgroups have to exist on more than one vSphere Distri
                 
                 <li>
                 
-                    <a href="https://blog.codecrusaders.nl/categories/devops/">devops (3)</a>
+                    <a href="https://blog.codecrusaders.nl/categories/article/">article (2)</a>
                 
                 </li>
                 
                 <li>
                 
-                    <a href="https://blog.codecrusaders.nl/categories/code/">code (2)</a>
+                    <a href="https://blog.codecrusaders.nl/categories/code/">code (1)</a>
                 
                 </li>
                 
                 <li>
                 
-                    <a href="https://blog.codecrusaders.nl/categories/article/">article (1)</a>
-                
-                </li>
-                
-                <li>
-                
-                    <a href="https://blog.codecrusaders.nl/categories/holidays/">Holidays (1)</a>
-                
-                </li>
-                
-                <li>
-                
-                    <a href="https://blog.codecrusaders.nl/categories/travelling/">Travelling (1)</a>
+                    <a href="https://blog.codecrusaders.nl/categories/devops/">devops (1)</a>
                 
                 </li>
                 
@@ -481,6 +378,17 @@ Especially when similar portgroups have to exist on more than one vSphere Distri
 
 
     
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7K04J065K"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-C7K04J065K', { 'anonymize_ip': false });
+}
+</script>
+
 
     
     <script src="https://blog.codecrusaders.nl/theme.js"></script>
